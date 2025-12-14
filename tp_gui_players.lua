@@ -31,7 +31,7 @@ local TeleportButton = Instance.new("TextButton")
 TeleportButton.Parent = BackGround
 TeleportButton.Size = UDim2.new(0,20,0,20)
 TeleportButton.Position = UDim2.new(1,-46,0,-22)
-TeleportButton.Text = "BRODYSC"
+TeleportButton.Text = "V.1"
 
 local FastTeleportButton = Instance.new("TextButton")
 FastTeleportButton.Parent = BackGround
@@ -144,3 +144,4 @@ UIS.InputBegan:Connect(function(input)
 	end
 
 end)
+
